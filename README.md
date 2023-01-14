@@ -1,10 +1,10 @@
 # Countdown Flipping Clock Vue 3
 
-This Vue.js 3 component to create a CSS based countdown clock with flipping effect. 
+A Vue.js 3 component to create a CSS based countdown clock with flipping effect. 
 
 ![](./example.png)
 
-A working demo [here](https://codesandbox.io/s/flipping-clock-8zxrcm)
+Working demo [here](https://codesandbox.io/s/flipping-clock-8zxrcm)
 
 ## How to install
 
@@ -51,11 +51,11 @@ The component has a number of customizations as parameters, as shown below:
 
 | parameter | type | default | description |
 |-|-|-|-|
-| targetDate | string | required | Set the target date in future for the countdown. Format YYYY-MM-DD hh:mm | 
-| bgColor | string | black | Set Background Color |
+| targetDate | string | required | Set the future target date for the countdown. Format YYYY-MM-DD hh:mm | 
+| bgColor | string | black | Set background Color |
 | fontColor | string | white | Set font color |
-| shadownOpracity | integer | 0.5 | Set the shadow opacity casting when flipping |
-| aspectRatio | integer | 4 | Set the aspect ratio for each flipping element. Must be adjusted manually for large numbers to prevent overflow | 
+| shadownOpracity | integer | 0.5 | Set the opacity for the shadow casting when flipping |
+| aspectRatio | integer | 4 | Set the aspect ratio for each flipping element. Must be adjusted manually for large days numbers to prevent overflow | 
 | fontSize | string | 150px | Set the overall clock size in pixels. | 
 | labels | object | `{days: 'days', hours: 'hours', minutes: 'minutes', seconds: 'seconds' }`| Set the labels for each individual flipping element. It can be empty to hide the element | 
 

@@ -4,6 +4,7 @@ This Vue.js 3 component to create a CSS based countdown clock with flipping effe
 
 ![](./example.png)
 
+A working demo [here](https://codesandbox.io/s/flipping-clock-8zxrcm)
 
 ## How to install
 

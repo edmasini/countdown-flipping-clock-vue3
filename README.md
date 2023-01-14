@@ -8,7 +8,7 @@ Working demo [here](https://codesandbox.io/s/flipping-clock-8zxrcm)
 
 ## How to install
 
-Copy the `countdown-flipping-clock` to your `components` project folder and import it into your page.
+Copy the `countdown-flipping-clock` [folder](./src/components) to your `components` project folder and import it into your page.
 
 ```html
 <template>

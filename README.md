@@ -59,7 +59,7 @@ The component has a number of customizations as parameters, as shown below:
 | fontSize | string | 150px | Set the overall clock size in pixels. | 
 | labels | object | `{days: 'days', hours: 'hours', minutes: 'minutes', seconds: 'seconds' }`| Set the labels for each individual flipping element. It can be empty to hide the element | 
 
-Other CSS styling can be applied with a class or id set on the component. The example below specifies the font family to be displayed.
+Others CSS stylings can be applied with a class or id set in the component. The example below specifies the font family to be displayed.
 
 ```html
 <style scoped>
